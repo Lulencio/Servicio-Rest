@@ -1,0 +1,27 @@
+# Entorno y secretos
+.venv/
+venv/
+.env
+
+# Python y pruebas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+
+# Datos grandes y artefactos generados
+data/input/
+data/processed*/
+*.csv
+*.csv.gz
+*.parquet
+
+# Temporales y editores
+tmp/
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
